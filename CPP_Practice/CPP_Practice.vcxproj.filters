@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TEXT RPG ver. 01.cpp">
+    <ClCompile Include="01_TEXT RPG ver. 01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Lotto Number Generator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
