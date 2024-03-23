@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 값 방식 복사와 포인터의 차이 이해하기
+// 값 방식 복사와 주소 전달 방식(포인터)의 차이 이해하기
 
 struct StatInfo
 {
@@ -29,7 +29,7 @@ void EnterLobby()
 
 	StatInfo MonsterInfo;
 	CreateMonster(&MonsterInfo);
-	// 포인터 방식, 직접 데이터를 쓰거나 고친다.
+	// 주소 전달 방식, 직접 데이터를 쓰거나 고친다.
 }
 
 StatInfo CreatePlayer()
