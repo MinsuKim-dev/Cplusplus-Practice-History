@@ -145,6 +145,21 @@
     <ClCompile Include="06_SnailArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="07_TEXT RPG ver 03.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="07_GameManager.cpp" />
+    <ClCompile Include="07_Player.cpp" />
+    <ClCompile Include="07_Creature.cpp" />
+    <ClCompile Include="07_Field.cpp" />
+    <ClCompile Include="07_Monster.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="07_GameManager.h" />
+    <ClInclude Include="07_Player.h" />
+    <ClInclude Include="07_Creature.h" />
+    <ClInclude Include="07_Field.h" />
+    <ClInclude Include="07_Monster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

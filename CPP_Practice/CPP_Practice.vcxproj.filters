@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\TEXT RPG ver 03">
+      <UniqueIdentifier>{471010ce-0877-4227-9baa-b3ef066c056c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TEXT RPG ver 03\07_Creature">
+      <UniqueIdentifier>{b7830596-14a9-4827-9fe4-39bdea6ab2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TEXT RPG ver 03\07_Game">
+      <UniqueIdentifier>{3d023480-9e43-4c25-820b-951aaf7b5102}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01_TEXT RPG ver. 01.cpp">
@@ -33,5 +42,40 @@
     <ClCompile Include="06_SnailArray.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="07_TEXT RPG ver 03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07_GameManager.cpp">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Player.cpp">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Creature.cpp">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Field.cpp">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Monster.cpp">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="07_GameManager.h">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Player.h">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Creature.h">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Field.h">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="07_Monster.h">
+      <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
