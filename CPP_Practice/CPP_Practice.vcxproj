@@ -153,6 +153,10 @@
     <ClCompile Include="07_Creature.cpp" />
     <ClCompile Include="07_Field.cpp" />
     <ClCompile Include="07_Monster.cpp" />
+    <ClCompile Include="08_vector.cpp" />
+    <ClCompile Include="09_line.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="07_GameManager.h" />

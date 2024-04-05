@@ -60,6 +60,12 @@
     <ClCompile Include="07_Monster.cpp">
       <Filter>소스 파일\TEXT RPG ver 03\07_Creature</Filter>
     </ClCompile>
+    <ClCompile Include="08_vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09_line.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="07_GameManager.h">
